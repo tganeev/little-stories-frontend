@@ -2,11 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "87902ccd-c7da-4e7f-9419-01eb26a702ef"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "my-app": {
+    "Little-stories": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-app:build:production"
+              "buildTarget": "Little-stories:build:production"
             },
             "development": {
-              "buildTarget": "my-app:build:development"
+              "buildTarget": "Little-stories:build:development"
             }
           },
           "defaultConfiguration": "development"
